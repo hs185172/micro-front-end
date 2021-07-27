@@ -6,9 +6,15 @@ function App() {
   return (
     <div className="App">
       <p>this is our main app</p>
-      <Routes/>
+      <Routes route={route} currentRoute={currentRoute}/>
     </div>
   );
 }
+
+const route = {
+  url:'',
+  nextUrl:''
+}
+const currentRoute = 'address';
 
 export default App;

@@ -23,6 +23,9 @@
       "react-app/jest"
     ]
   },
+  "devDependencies": {
+    "cross-env": "^5.1.5"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
