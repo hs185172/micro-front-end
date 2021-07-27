@@ -25,7 +25,6 @@ const renderMicroFrontend = (iframeId,host) => {
         iframe.crossorigin = '';
         iframe.frameborder = '0';
     }
-    return;
 }
 
 export default MicroFrontend;
