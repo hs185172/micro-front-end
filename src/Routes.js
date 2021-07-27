@@ -15,6 +15,7 @@ const Routes = (props) => {
 }
 
 const address = (props) => {
+    console.log("hello")
     return (
         <MicroFrontend
         host={firstApp}
